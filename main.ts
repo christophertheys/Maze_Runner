@@ -1,0 +1,5 @@
+scene.setBackgroundColor(15)
+scene.setBackgroundImage(assets.image`Pac-Man`)
+let MAZE = sprites.create(assets.image`Apple`, SpriteKind.Player)
+MAZE.setPosition(72, 51)
+info.startCountdown(10)
